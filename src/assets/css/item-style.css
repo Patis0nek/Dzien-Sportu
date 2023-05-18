@@ -1,0 +1,463 @@
+.drops {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+    gap: 30px 15px;
+    margin-top: 30px;
+}
+
+.drops .item {
+    padding-bottom: 25px;
+    box-shadow: 0px 2px 8px 0px var(--shad);
+    background-color: var(--gray2);
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    margin: 0rem;
+}
+
+
+.drops .item img {
+    max-width: 252px;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
+
+.drops .name {
+    position: relative;
+    max-width: 280px;
+    z-index: 2;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: var(--bw);
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    bottom: 62px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.drops .name span {
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: "Cocon", sans-serif;
+    display: block;
+}
+
+.drops .price {
+    position: absolute;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    color: var(--bw);
+    left: 0;
+    right: 0;
+    bottom: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.drops .tm {
+    color: var(--bw);
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--gr3);
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 6px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.drops .tm span {
+    display: block;
+    font-size: 12px;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.drops .tm img {
+    opacity: 0;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 22px !important;
+    bottom: 6px;
+    left: 2px;
+    max-width: 38px !important;
+    transform: scale(1);
+}
+
+
+.drops .link {
+    text-decoration: none;
+    color: #edf0f1;
+    font-weight: 590;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #5A69EA;
+    border: #5A69EA 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 2px rgba(0, 0, 0, 0.5);
+}
+
+.drops .link:hover {
+    background-color: var(--gr);
+    border: #5A69EA 3px solid;
+    color: var(--bw);
+}
+
+.drops .un {
+    background-color: var(--gr2);
+    border: var(--gr2) 3px solid;
+}
+
+.drops .un:hover {
+    background-color: var(--gr2);
+    border: var(--gr2) 3px solid;
+    cursor: default;
+    color: #edf0f1;
+}
+
+
+.drops .hype {
+    display: none;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    color: var(--bw);
+    left: 15px;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--gr3);
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    width: 40px;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.drops .resell {
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+
+.raffles .resell {
+    display: none;
+}
+
+.raffles .resell.s {
+    display: block;
+}
+
+.drops .resell span {
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    font-size: 12px;
+    top: 12px;
+    right: 4px;
+    font-weight: bold;
+}
+
+.drops .resell i {
+    transition: all 0.3s ease-in-out;
+}
+
+
+.drops .resell.s {
+    display: block;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 590;
+    font-size: large;
+    color: goldenrod;
+    right: 10px;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.drops .women {
+    display: none;
+}
+
+.drops .sale .women.s {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px) {
+    .drops {
+        grid-template-columns: repeat(auto-fit, 12rem);
+    }
+
+    .drops img {
+        width: 160px;
+        height: auto;
+    }
+
+    .drops .link {
+        font-size: 12px;
+        padding: 2px 9px;
+    }
+}
+
+@media(max-width: 574px) {
+    .drops .footer-col {
+        width: 100%;
+    }
+
+    .drops #photo {
+        max-width: 300px !important;
+    }
+
+    .drops .description span {
+        max-width: 300px !important;
+    }
+
+    .drops .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 13rem) !important;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .drops .gallery img {
+        width: 200px;
+        height: auto;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .drops .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 10rem) !important;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .drops .gallery img {
+        width: 160px;
+        height: auto;
+    }
+}
+
+@media(max-width: 460px) {
+    .drops {
+        grid-template-columns: repeat(2, 11.5rem);
+        gap: 20px 15px;
+    }
+
+    .drops img {
+        width: 150px;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .drops .link {
+        font-size: 12px;
+        padding: 1.5px 6.75px;
+    }
+
+    .drops .name {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+    .drops .price {
+        font-size: 12px;
+    }
+
+    .drops .tm {
+        font-size: 12px;
+        width: 62px;
+        height: 40px;
+        padding-top: 5px;
+    }
+
+    .drops .pr {
+        font-size: 14px !important;
+        padding-top: 6px !important;
+        height: 30px !important;
+    }
+
+    .drops .resell.s {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        padding: 7.2px;
+    }
+
+    .sale .drops .women {
+        font-size: 12px;
+        left: 80px;
+        top: 16px;
+    }
+}
+
+@media(max-width: 402px) {
+    .drops {
+        grid-template-columns: repeat(2, 11rem);
+        gap: 16px 12px;
+    }
+}
+
+@media(max-width: 384px) {
+    .drops {
+        grid-template-columns: repeat(2, 10.2rem);
+    }
+
+    .drops img {
+        width: 140px;
+        height: 120px;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 354px) {
+    .drops {
+        grid-template-columns: repeat(1, 18rem);
+    }
+
+    .drops img {
+        width: 240px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .drops .link {
+        font-size: 16px;
+        padding: 3px 9px;
+    }
+
+    .drops .name {
+        font-size: 16px;
+    }
+
+    .drops .tm {
+        font-size: 12px;
+        width: 60px;
+        height: 45px;
+        padding-top: 7px;
+    }
+
+    .drops .pr {
+        font-size: 20px !important;
+        padding-top: 12px !important;
+        width: 80px !important;
+        height: 50px !important;
+
+    }
+
+    .drops .resell {
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+
+    .sale .drops .women {
+        font-size: 16px;
+        left: 110px;
+        top: 22px;
+    }
+}
+
+@media(max-width: 300px) {
+    .drops {
+        grid-template-columns: repeat(1, 12rem);
+    }
+
+    .drops img {
+        width: 160px;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .drops .link {
+        font-size: 12px;
+        padding: 2px 6px;
+    }
+
+    .drops .name {
+        font-size: 12px;
+    }
+
+    .drops .price {
+        font-size: 12px;
+    }
+
+    .drops .tm {
+        font-size: 12px;
+        width: 50px;
+        height: 40px;
+        padding-top: 5px;
+    }
+
+    .drops .pr {
+        font-size: 12px !important;
+        padding-top: 7px !important;
+        height: 30px !important;
+        width: 55px !important;
+    }
+
+    .drops .resell {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        padding: 7.2px;
+    }
+
+    .sale .drops .women {
+        font-size: 10px;
+        left: 75px;
+        top: 18px;
+    }
+}
+
+
+/*<i class="fa-solid fa-sun"></i>*/
+
+
+
+.sale,
+.news,
+.raffles {
+    min-height: 100%;
+}
