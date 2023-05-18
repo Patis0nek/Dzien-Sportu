@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Sports Event Website
+The Sports Event Website is an informational website designed for a real school event. The website showcases various sports disciplines, provides essential event data, and features a clean and user-friendly design. It was developed using React, Bootstrap, and OwlCarousel to create an engaging and visually appealing experience for visitors.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose
+The purpose of this website is to provide information about the school's sports event, including details about the different sports disciplines, schedule, participating teams, and other relevant information. The website aims to promote the event, generate excitement among participants and spectators, and serve as a central hub for all event-related information.
 
-## Available Scripts
+## Features
+- Sports Disciplines: The website showcases a variety of sports disciplines offered in the event, providing information about each discipline, its rules, and requirements.
+- Event Schedule: A comprehensive schedule is included, outlining the dates, times, and locations of various matches, competitions, and activities.
+- Participating Teams: The website highlights the teams participating in the event, providing details about each team, including their names, logos, and participating players.
+- Minimalistic Icons: Minimalistic icons are used throughout the website to enhance visual appeal and provide a quick representation of each sports discipline.
+- Responsive Design: The website is designed to be fully responsive, ensuring optimal viewing and interaction across different devices and screen sizes.
 
-In the project directory, you can run:
+## Technologies Used
+The Sports Event Website is built using the following technologies:
 
-### `npm start`
+- React: A popular JavaScript library for building user interfaces. React provides a component-based approach, allowing for reusable and modular code.
+- Bootstrap: A widely used CSS framework that provides pre-built components and a responsive grid system, simplifying the design and layout of the website.
+- OwlCarousel: A feature-rich and customizable carousel plugin for displaying images, banners, or other content in an interactive and engaging manner.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+To run the Sports Event Website locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository: git clone https://github.com/Patis0nek/Fizos.git
+2. Navigate to the project directory: cd random-selection-number-website
+3. Install the dependencies: npm install
+4. Start the development server: npm start
+5. Open your browser and access the website at http://localhost:3000
 
-### `npm test`
+## Contributing
+Contributions to the Sports Event Website project are welcome! If you have any ideas, improvements, or suggestions, please feel free to submit a pull request. Make sure to follow the project's code style and provide detailed information about your changes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Acknowledgments
+I would like to acknowledge the support and collaboration of the school administration and event organizers in the creation of this website. Their input and feedback played a significant role in shaping the final product.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+If you have any questions, suggestions, or feedback, please feel free to reach out to me at kuna.patryk@gmail.com or visit my portfolio site at patrykkuna.com.
