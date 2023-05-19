@@ -34,4 +34,4 @@ Contributions to the Sports Event Website project are welcome! If you have any i
 I would like to acknowledge the support and collaboration of the school administration and event organizers in the creation of this website. Their input and feedback played a significant role in shaping the final product.
 
 ## Contact
-If you have any questions, suggestions, or feedback, please feel free to reach out to me at kuna.patryk@gmail.com or visit my portfolio site at patrykkuna.com.
+If you have any questions or feedback, please feel free to reach out to me at kuna.patryk@gmail.com or visit my portfolio site at [patrykkuna.com](https://patrykkuna.com)
