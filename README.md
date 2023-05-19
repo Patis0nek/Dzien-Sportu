@@ -7,7 +7,7 @@ The purpose of this website is to provide information about the school's sports 
 ## Features
 - Sports Disciplines: The website showcases a variety of sports disciplines offered in the event, providing information about each discipline, its rules, and requirements.
 - Event Schedule: A comprehensive schedule is included, outlining the dates, times, and locations of various matches, competitions, and activities.
-- Participating Teams: The website highlights the teams participating in the event, providing details about each team, including their names, logos, and participating players.
+- Participating Teams: The website highlights the teams participating in the event, providing details about each team, including their names, and participating players.
 - Minimalistic Icons: Minimalistic icons are used throughout the website to enhance visual appeal and provide a quick representation of each sports discipline.
 - Responsive Design: The website is designed to be fully responsive, ensuring optimal viewing and interaction across different devices and screen sizes.
 
