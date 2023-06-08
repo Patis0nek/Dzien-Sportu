@@ -21,7 +21,7 @@ The Sports Event Website is built using the following technologies:
 ## Getting Started
 To run the Sports Event Website locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/Patis0nek/Fizos.git
+1. Clone the repository: git clone https://github.com/Patis0nek/Dzien-sportu.git
 2. Navigate to the project directory: cd random-selection-number-website
 3. Install the dependencies: npm install
 4. Start the development server: npm start
